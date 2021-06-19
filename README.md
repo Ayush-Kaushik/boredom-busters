@@ -1,46 +1,59 @@
-# Getting Started with Create React App
+<h2 align="center">Boredom Buster 🥱 💤 </h2> 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"> 
+Single Page Application built using React and  <a href="http://www.boredapi.com/">bored api</a>
+</p>
+  
+## 📝 Table of Contents  
+- [About](#about)  
+- [Getting Started](#getting_started)  
+- [Deployment](#deployment)  
+- [Usage](#usage)  
+- [Built Using](#built_using)  
+- [Acknowledgments](#acknowledgement)  
+- [License](#license)  
+  
+## 🏁 About <a name = "#getting_started"></a>  
+Sometimes, you're super bored and have run out of ideas on what to do. I built the application exactly for that. Also, I wanted to reinforce my leanrning of React Typescript and hooks. I will link the application once its deployed.
 
-## Available Scripts
+I have moved way from using states for constantly managing every single minutiae. Instead I switched to using
+context api along with useReducer hook and have seen a improvement in the way I was able to focus on  how a user would be using it, instead of how a developer would program it. If that didn't make sense then follow this link: <a href="https://www.youtube.com/watch?v=9KzQ9xFSAEU"> useReducer with TypeScript </a>
+  
+## 🏁 Getting Started <a name = "#getting_started"></a>  
+- Simply clone the repository, run `npm install` and then run `npm start`. You should be able to access the project locally on `http://localhost:3000`
+- Once its deployed on github pages then I'll link it as well.
+  
+## 🚀 Deployment <a name = "deployment"></a>  
+Docker Support Coming Soon  
+  
+## 🎈 Usage <a name="usage"></a>  
+- On the dashboard, click `lets do something about it button` and it will keep presenting you new ways to stop being bored and do something fun
+- Also, with easy switch between light and dark mode on top right, you can pick the theme
+- Since Covid is in full force, I do not encourage the activites that involve more than the required number of people as per regulations, So I added a covid alert for activities that ask you to do so.
+  
+## ⛏️ Built Using <a name = "built_using"></a>  
+- [React](https://reactjs.org/) - Front End  
+- [Bored API](http://www.boredapi.com/) - API which provides all these fun activities
+  
+## 👏 Acknowledgements <a name = "acknowledgement"></a>    
+- I found all the images from online sources and credit goes to their respective owners
+  
+## 📝 License <a name = "acknowledgement"></a>  
+- MIT
 
-In the project directory, you can run:
 
-### `npm start`
+## 📝  TO DO 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Add internationalization - only to labels
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- Finish theme changes with context - almost done
 
-### `npm test`
+- Fix the footer css and make the app scroll if more than the sreen height
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- change color of anchor tag to make it more readable
 
-### `npm run build`
+- conduct lighthouse test to see how well the app renders
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
