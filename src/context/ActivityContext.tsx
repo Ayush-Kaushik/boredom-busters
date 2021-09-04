@@ -1,6 +1,7 @@
 import React, { createContext, useContext, useReducer, Reducer } from 'react';
 import { images, ActivityImage } from '../constants';
 
+
 interface Bored {
     activity: string,
     type: string,
@@ -57,6 +58,7 @@ export const useActivity = () => {
 }
 
 const activityReducer: Reducer<State, Action> = (currentState: State, action: Action) => {
+
     switch (action.type) {
         case 'find_new_activity':
             const activityImage: ActivityImage = images[action.payload.type];
@@ -66,7 +68,7 @@ const activityReducer: Reducer<State, Action> = (currentState: State, action: Ac
             }
 
             if(action.payload.participants > 1) {
-                covidWarning.message = "Covid Alert: Please refrain from activities with more than one participant";
+                covidWarning.message = "Covid Alert";
                 covidWarning.shouldWarn = true;
             }
 

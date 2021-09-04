@@ -1,7 +1,3 @@
-export const INITIAL_APP_TITLE: string = "Bored?";
-export const FINAL_APP_TITLE: string = "Fun! isn't it?";
-export const INITIAL_BUTTON_LABEL: string = "Lets do something about it!";
-
 export type ActivityImage = {
     url: string;
     alt: string;
@@ -58,3 +54,16 @@ export const themeImages: Record<string, ActivityImage> = {
     }
 }
 
+export interface ILanguage {
+    [key: string] : ILanguageMetaData
+}
+
+interface ILanguageMetaData {
+    nativeName: string
+}
+
+export const languages: ILanguage = {
+    en: { nativeName: 'English' },
+    de: { nativeName: 'Deutsch' },
+    fr: { nativeName: 'Français' }
+};

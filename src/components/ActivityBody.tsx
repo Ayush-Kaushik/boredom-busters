@@ -3,14 +3,16 @@ import React from 'react';
 import { ActivityImage } from '../constants';
 import {useActivity} from '../context/ActivityContext';
 import { useTheme } from '../context/ThemeContext';
+import { Trans, useTranslation } from 'react-i18next';
 
 const ActivityBody: React.FC = () => {
 
-    const { darkMode, setDarkMode } = useTheme();
+    const { darkMode } = useTheme();
     const {activityState, dispatch} = useActivity();
-    const {activity, type, participants, link} = activityState.bored;
-    const {message, shouldWarn} = activityState.covidWarning;
+    const {activity, link} = activityState.bored;
+    const {shouldWarn} = activityState.covidWarning;
     const image: ActivityImage = activityState.image;
+    const { t, i18n } = useTranslation()
 
     const getNewActivity = () => {
         axios.get('https://www.boredapi.com/api/activity').then(({data}) => {
@@ -25,11 +27,11 @@ const ActivityBody: React.FC = () => {
             {image.url !== '' ? <img alt={image.alt} src={`${process.env.PUBLIC_URL}/images/${image.url}`}/> : <img alt={image.alt} src={`${process.env.PUBLIC_URL}/images/thinking-emoji.png`}/>}
             <h2>{link ?  <a href={link}>{activity}</a>: activity}</h2>
 
-            {shouldWarn ? <p className={`covid-warning`}>{message}</p> : <></>}
+            {shouldWarn ? <p className={`covid-warning`}>{t('covidAlert')}</p> : <></>}
             
             <button className={darkMode ? `button dark-button` : `button light-button`} onClick={() => {
                 getNewActivity()
-            }}>Let's do Something about it!</button>
+            }}><Trans i18nKey="cta" id="cta"/></button>
         </div>
     );
 }

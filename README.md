@@ -42,15 +42,3 @@ Docker Support Coming Soon
 - MIT
 
 
-## 📝  TO DO 
-
-- Add internationalization - only to labels
-
-- Finish theme changes with context - almost done
-
-- Fix the footer css and make the app scroll if more than the sreen height
-
-- change color of anchor tag to make it more readable
-
-- conduct lighthouse test to see how well the app renders
-
