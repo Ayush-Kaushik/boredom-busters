@@ -12,7 +12,7 @@ const ActivityBody: React.FC = () => {
     const {activity, link} = activityState.bored;
     const {shouldWarn} = activityState.covidWarning;
     const image: ActivityImage = activityState.image;
-    const { t, i18n } = useTranslation()
+    const { t } = useTranslation()
 
     const getNewActivity = () => {
         axios.get('https://www.boredapi.com/api/activity').then(({data}) => {
