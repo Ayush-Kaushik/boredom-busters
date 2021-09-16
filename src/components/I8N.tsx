@@ -52,6 +52,15 @@ i18n
                     covidAlert: "कोविड अलर्ट: कृपया एक से अधिक प्रतिभागियों वाली गतिविधियों से बचें",
                     acknowledgement: "<1>Bored API</1> द्वारा संचालित"
                 }
+            },
+            pa: {
+                translation: {
+                    title: "ਕੀ ਤੁਸੀਂ ਬੋਰ ਹੋ?",
+                    copyright: "© 2021 Ayush Kaushik",
+                    cta: "ਆਓ ਇਸ ਬਾਰੇ ਕੁਝ ਕਰੀਏ!",
+                    covidAlert: "ਕੋਵਿਡ ਅਲਰਟ: ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਤੋਂ ਵੱਧ ਭਾਗੀਦਾਰਾਂ ਨਾਲ ਗਤੀਵਿਧੀਆਂ ਤੋਂ ਪਰਹੇਜ਼ ਕਰੋ",
+                    acknowledgement: "<1>Bored API</1> ਦੁਆਰਾ ਸੰਚਾਲਿਤ"
+                }
             }
         },
         react: {

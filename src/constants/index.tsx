@@ -67,4 +67,5 @@ export const languages: ILanguage = {
     de: { nativeName: 'Deutsch' },
     fr: { nativeName: 'Français' },
     hi: { nativeName: 'हिंदी'},
+    pa: { nativeName: 'ਪੰਜਾਬੀ'}
 };
