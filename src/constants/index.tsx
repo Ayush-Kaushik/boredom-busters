@@ -65,5 +65,6 @@ interface ILanguageMetaData {
 export const languages: ILanguage = {
     en: { nativeName: 'English' },
     de: { nativeName: 'Deutsch' },
-    fr: { nativeName: 'Français' }
+    fr: { nativeName: 'Français' },
+    hi: { nativeName: 'हिंदी'},
 };
