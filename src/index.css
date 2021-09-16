@@ -21,11 +21,10 @@ code {
 .header {
     width: 100%;
     color: #FFF;
-    text-align: center;
     font-weight: bold;
-    font-size: 20px;
-
-    display: flex;
+    
+    position: relative;
+    overflow: hidden;
 }
 
 .light-header {
@@ -42,13 +41,18 @@ code {
     width: 30px;
 }
 
-.header-right-content {
-    padding-top: 10px;
-    flex-grow: 1;
+.header-center-content {
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-.header-center-content {
-    flex-grow: 5;
+.header-right-content {
+    float: right;
+    padding: 5px;
+    
 }
 
 .activity-body {
@@ -106,4 +110,22 @@ code {
     border-color: #61A461;
 }
 
+.light-selector {
+    background-color: #3873D6;
+    color: #FFF;
+    border-color: #FFF;
+}
 
+.dark-selector {
+    background-color: #222B45;
+    color: #FFF;
+    border-color: #FFF;
+}
+
+.selector {
+    border-radius: 10px;  
+    padding: 15px;
+    font-size: medium;
+    font-weight: 400;
+    margin: 10px;
+}
