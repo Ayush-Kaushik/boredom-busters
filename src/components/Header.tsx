@@ -8,7 +8,7 @@ const Header: React.FC = ({ children }) => {
 
     return (
         <header className={darkMode ? `header dark-header` : `header light-header`}>
-            <div className="header-center-content">
+            <div className="header-left-content">
                 <h1><Trans i18nKey="title" /></h1>
             </div>
 

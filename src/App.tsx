@@ -13,7 +13,7 @@ const App: React.FC = () => {
         <I18nextProvider i18n={i18n}>
                 <ThemeProvider>
                     <ActivityProvider>
-                        <div className="background">
+                        <div>
                             <Header><LanguageSelector /></Header>
                             <ActivityBody></ActivityBody>
                             <Footer></Footer>
