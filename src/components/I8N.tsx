@@ -18,7 +18,10 @@ i18n
                     copyright: "© 2021 Ayush Kaushik",
                     cta: "Lets do something about it!",
                     covidAlert: "Covid Alert: Please refrain from activities with more than one participant",
-                    acknowledgement: "Powered by <1>Bored API</1>"
+                    acknowledgement: "Powered by <1>Bored API</1>",
+                    darkModeToggle: "🌙 Dark Mode",
+                    lightModeToggle: "☀️ Light Mode",
+                    language: "🌏 Language"
                 }
             },
             fr: {
@@ -26,8 +29,11 @@ i18n
                     title: "Ennuyé?",
                     copyright: "© 2021 Ayush Kaushik",
                     cta: "Faisons quelque chose à ce sujet !",
-                    covidAlert: "Alerte Covid : veuillez vous abstenir d'activités avec plus d'un participant",
-                    acknowledgement: "Alimenté par <1>Bored API</1>"
+                    covidAlert: "Alerte Covid: veuillez vous abstenir d'activités avec plus d'un participant",
+                    acknowledgement: "Alimenté par <1>Bored API</1>",
+                    darkModeToggle: "🌙 Mode Sombre",
+                    lightModeToggle: "☀️ Mode Lumière",
+                    language: "🌏 Langue"
                 }
             },
             de: {
@@ -36,7 +42,10 @@ i18n
                     copyright: "© 2021 Ayush Kaushik",
                     cta: "Lasst uns etwas dagegen tun!",
                     covidAlert: "Covid Alert: Bitte sehen Sie von Aktivitäten mit mehr als einem Teilnehmer ab",
-                    acknowledgement: "Unterstützt von <1>Bored API</1>"
+                    acknowledgement: "Unterstützt von <1>Bored API</1>",
+                    darkModeToggle: "🌙 Dunkelmodus",
+                    lightModeToggle: "☀️ Lichtmodus",
+                    language: "🌏 Sprache"
                 }
             },
             hi: {
@@ -45,7 +54,10 @@ i18n
                     copyright: "© 2021 Ayush Kaushik",
                     cta: "चलो इसके बारे में कुछ करते हैं!",
                     covidAlert: "कोविड अलर्ट: कृपया एक से अधिक प्रतिभागियों वाली गतिविधियों से बचें",
-                    acknowledgement: "<1>Bored API</1> द्वारा संचालित"
+                    acknowledgement: "<1>Bored API</1> द्वारा संचालित",
+                    darkModeToggle: "🌙 अँधेरा तरीका",
+                    lightModeToggle: "☀️ रोशनी तरीका",
+                    language: "🌏 भाषा"
                 }
             },
             pa: {
@@ -54,7 +66,10 @@ i18n
                     copyright: "© 2021 Ayush Kaushik",
                     cta: "ਆਓ ਇਸ ਬਾਰੇ ਕੁਝ ਕਰੀਏ!",
                     covidAlert: "ਕੋਵਿਡ ਅਲਰਟ: ਕਿਰਪਾ ਕਰਕੇ ਇੱਕ ਤੋਂ ਵੱਧ ਭਾਗੀਦਾਰਾਂ ਨਾਲ ਗਤੀਵਿਧੀਆਂ ਤੋਂ ਪਰਹੇਜ਼ ਕਰੋ",
-                    acknowledgement: "<1>Bored API</1> ਦੁਆਰਾ ਸੰਚਾਲਿਤ"
+                    acknowledgement: "<1>Bored API</1> ਦੁਆਰਾ ਸੰਚਾਲਿਤ",
+                    darkModeToggle: "🌙 ਹਨੇਰਾ ਮੋਡ",
+                    lightModeToggle: "☀️ ਰੋਸ਼ਨੀ ਮੋਡ",
+                    language: "🌏 ਭਾਸ਼ਾ"
                 }
             }
         },

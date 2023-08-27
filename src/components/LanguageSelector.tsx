@@ -1,5 +1,5 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next';
+import { Trans, useTranslation } from 'react-i18next';
 import { useTheme } from '../context/ThemeContext';
 import { languages, ILanguage } from '../constants';
 
@@ -12,7 +12,9 @@ const LanguageSelector: React.FC = () => {
     }
 
     return (
-            <select className={darkMode ? `dark-selector selector` : `light-selector selector`}
+        <div className={darkMode ? `dark-selector selector` : `light-selector selector`}>
+            <label><Trans i18nKey="language" id="language"/></label>
+            <select
                 value={i18n.language}
                 id={"language-selector"}
                 onChange={(e) => {
@@ -24,6 +26,7 @@ const LanguageSelector: React.FC = () => {
                     </option>
                 ))}
             </select>
+        </div>
     );
 }
 
