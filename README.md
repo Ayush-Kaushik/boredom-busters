@@ -5,13 +5,14 @@ Single Page Application built using React and  <a href="http://www.boredapi.com/
 </p>
   
 ## 📝 Table of Contents  
-- [About](#about)  
-- [Getting Started](#getting_started)  
-- [Deployment](#deployment)  
-- [Usage](#usage)  
-- [Built Using](#built_using)  
-- [Acknowledgments](#acknowledgement)  
-- [License](#license)  
+- [📝 Table of Contents](#-table-of-contents)
+- [🏁 About ](#-about-)
+- [🏁 Getting Started ](#-getting-started-)
+- [🚀 Deployment ](#-deployment-)
+- [🎈 Usage ](#-usage-)
+- [⛏️ Built Using ](#️-built-using-)
+- [👏 Acknowledgements ](#-acknowledgements-)
+- [📝 License ](#-license-)
   
 ## 🏁 About <a name = "#getting_started"></a>  
 Sometimes, you're super bored and have run out of ideas on what to do. I built the application exactly for that. Also, I wanted to reinforce my leanrning of React Typescript and hooks. I will link the application once its deployed.
@@ -40,5 +41,3 @@ Docker Support Coming Soon
   
 ## 📝 License <a name = "acknowledgement"></a>  
 - MIT
-
-
